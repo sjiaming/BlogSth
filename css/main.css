@@ -38,7 +38,7 @@ body {
   background-image: url('../assets/star.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 520px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -82,13 +82,15 @@ section .row img {
   margin: 0 0 30px;
 }
 
-
+.wrapper{
+  height: 100%;
+  min-height: 100%;
+}
 
 /* Footer */
 
 footer {
-  float:none;
-  display:block;
+  z-index:1;
   padding-left:0;
   padding-right:0;
   background:#31303A;
@@ -97,6 +99,8 @@ footer {
   font-weight:300;
   font-style:normal;
   border-top: 1px solid #403F48;
+  position:relative;
+  bottom:0;
 }
 
 
@@ -121,3 +125,4 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+
