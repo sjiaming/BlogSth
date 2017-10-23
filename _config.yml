@@ -1,4 +1,3 @@
 baseurl: ""
 exclude: ['README.md']
 
-port: 1234
