@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+
+	<!-- If IE use the latest rendering engine -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Set the page to the width of the device and set the zoon level -->
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+
+	<link rel="stylesheet" type = "text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+	<title>A bit of Something</title>
+
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+
+      <!--logo-->      
+     <div class="navbar-header">
+     
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="{{site.baseurl}}/index.html">STH</a>
+     </div>
+     
+     <!-- Nav Items-->
+     <div class="collapse navbar-collapse" id="mainNavBar">
+      <ul class="nav navbar-nav">
+
+          <li><a href="{{site.baseurl}}/blog.html">Articles</a></li>
+      </ul>
+     </div>
+
+    </div>
+</nav>
+
+
+{{ content }}
+	
+
+
+
+</body>
+
+</html>
