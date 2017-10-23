@@ -1,0 +1,111 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  height:100%;
+  min-height: 100%;
+}
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('../assets/star.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #626567;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #678FFE;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+
+footer {
+  font-size: 12px;
+  padding: 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+
+
+/* header navbar */
+.navbar-brand{
+  font-family: impact;
+  font-size:32px;
+  padding-top:8px !important;
+  padding-bottom:5px !important;
+  height: 28px;
+}
+
+.navbar-default {
+    background-color: #31303A;
+    border-color: #403F48;
+}
+
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #CACFD2;
+    font-family: impact;
+    padding-top:10px !important;
+    padding-bottom:5px !important;
+    height: 35px;
+
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+
+.navbar {
+  min-height:35px !important;
+}
