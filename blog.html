@@ -11,7 +11,7 @@ layout: blog_page
     <div class="col-lg-4">
         <h1>News</h1>
         <ul>
-            {% for news in site.posts %}
+            {% for news in site.posts limit:2 %}
                 <li>
                     <a href ="">{{news.title}}</a>
                     <p></p>
