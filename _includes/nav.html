@@ -1,32 +1,24 @@
 <!-- Sidebar -->
-<div id="sidebar-wrapper">
-  <div style="float: left; width: 50%;">
+<div id = "wrapper">
+  <div id="sidebar-wrapper">
+    <div style="float: left; width: 50%;">
 
-    <ul class="sidebar-nav">
-    	<li class="sidebar-brand">Category</li>
-      <li><a href="#">General</a></li>
-      <li><a href="#">Data</a></li>
-      <li><a href="#">Github</a></li>
-      <li><a href="#">Excels</a></li>
-    </ul>
+      <ul class="sidebar-nav">
+      	<li class="sidebar-brand">Category</li>
+        <li><a href="#">General</a></li>
+        <li><a href="#">Data</a></li>
+        <li><a href="#">Github</a></li>
+        <li><a href="#">Excels</a></li>
+      </ul>
+    </div>
+  	
+    <div style="float: right; width: 50%;">
+  		<ul class="sidebar-nav">
+  		  <li class="sidebar-brand"><a href="#menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span></a></li>
+      </ul>
+    </div>
+    
   </div>
-	
-  <div style="float: right; width: 50%;">
-		<ul class="sidebar-nav">
-		  <li class="sidebar-brand"><a href="#menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span></a></li>
-  </div>
-  
 </div>
-
-
-
-<!-- Menu Toggle Script -->
-<script>
-
-  $("#menu-toggle").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("menuDisplayed");
-  });
-</script>
 
 

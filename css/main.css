@@ -82,9 +82,6 @@ footer li img {
 .navbar-brand{
   font-family: impact;
   font-size:32px;
-  padding-top:8px !important;
-  padding-bottom:5px !important;
-  height: 28px;
 }
 
 .navbar-default {
@@ -96,16 +93,8 @@ footer li img {
 .navbar-default .navbar-nav > li > a {
     color: #CACFD2;
     font-family: impact;
-    padding-top:10px !important;
-    padding-bottom:5px !important;
-    height: 35px;
-
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #ffffff;
-}
-
-.navbar {
-  min-height:35px !important;
 }
