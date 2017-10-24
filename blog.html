@@ -4,46 +4,27 @@ layout: blog_page
 
 
 <!-- Page Content -->
+ 
 
-    
 <div class="row">
     <div class="col-sm-3">
-        <h1>News</h1>
-        <ul>
-            {% for news in site.posts limit:2 %}
-                <li>
-                    <a href ="">{{news.title}}</a>
-                    <p></p>
-                </li>
-            {% endfor %}
-
-        </ul>        
+        {% include block.html %}     
     </div>
           
     <div class="col-sm-3">
-        <h1>Data category</h1>
-        <ul>
-            {% for news in site.categories.data %}
-                <li>
-                    <a href ="">{{news.title}}</a>
-                    <p></p>
-                </li>
-            {% endfor %}
-
-        </ul>  
+        {% include block.html %} 
     </div>
           
     <div class="col-sm-3">
-        <h1>Some blogs here Too</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. .</p>
+        {% include block.html %} 
     </div>
 
     <div class="col-sm-3">
-        <h1>Some blogs here Too</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. .</p>
+        {% include block.html %}     
     </div>
 </div>
- 
+
+
 
 <div class="row">
     <div class="col-sm-3">
