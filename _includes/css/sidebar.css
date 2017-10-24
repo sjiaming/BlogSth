@@ -6,9 +6,9 @@
     width:150px;
     height: 100%;
     overflow-y:hidden;
-    background:#E08D7B;
+    background:#31303A;
     transition:all .4s ease 0s;
-    border-right: 1px solid #FCDBDB; 
+    border-right: 1px solid #31302A; 
     margin-left: 0px;
     margin-left: -100px;
 }

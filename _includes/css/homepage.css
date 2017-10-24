@@ -16,13 +16,13 @@ body {
 }
 
 .navbar-default {
-    background-color: #E08D7B;
-    border-bottom-color: #FCDBDB;
+    background-color: #31303A;
+    border-bottom-color: #31302A;
 }
 
 /* Link */
 .navbar-default .navbar-nav > li > a {
-    color: #FCE8E8;
+    color: #E08D7B;
     font-family: impact;
 }
 .navbar-default .navbar-nav > li > a:hover,
@@ -86,5 +86,6 @@ section .row img {
 .wrapper{
   height: 100%;
   min-height: 100%;
+  background-color: #676267;
 }
 

@@ -1,6 +1,7 @@
 
 .thumbnail {
-	margin-top: 20px;
+	margin-top: 25px;
+  margin-bottom: 25px;
 	-ms-flex:1 0 300px;
 	-webkit-box-flex:1;
 
@@ -8,7 +9,13 @@
 	transition:all .3s;
 	position:relative;
 	z-index:1;
-	background-color: #E08D7B;
+	background-color: #31303A;
+  color: #ffffff;
+  border-color: #31302A;
+}
+.thumbnail .caption {
+  color: #ffffff;
+
 }
 .image {
   opacity: 1;

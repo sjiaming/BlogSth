@@ -5,41 +5,12 @@ layout: blog_page
 
 <!-- Page Content -->
  
-
-<div class="row">
-    <div class="col-sm-3">
-        {% include block.html %}     
+{% for i in (1..2) %}
+    <div class="row">
+        {% for j in (1..4)%}
+            <div class="col-sm-3">
+            {% include block.html %}     
+            </div>
+        {% endfor %}
     </div>
-          
-    <div class="col-sm-3">
-        {% include block.html %} 
-    </div>
-          
-    <div class="col-sm-3">
-        {% include block.html %} 
-    </div>
-
-    <div class="col-sm-3">
-        {% include block.html %}     
-    </div>
-</div>
-
-
-
-<div class="row">
-    <div class="col-sm-3">
-        {% include block.html %}     
-    </div>
-          
-    <div class="col-sm-3">
-        {% include block.html %} 
-    </div>
-          
-    <div class="col-sm-3">
-        {% include block.html %} 
-    </div>
-
-    <div class="col-sm-3">
-        {% include block.html %}     
-    </div>
-</div>
+{% endfor %}
