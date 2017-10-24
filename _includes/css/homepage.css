@@ -1,0 +1,90 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  height:100%;
+  min-height: 100%;
+  padding-top: 50px;
+  margin: 0;
+}
+
+
+
+/* header navbar */
+.navbar-brand{
+  font-family: impact;
+  font-size:32px;
+}
+
+.navbar-default {
+    background-color: #E08D7B;
+    border-bottom-color: #FCDBDB;
+}
+
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #FCE8E8;
+    font-family: impact;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+
+
+
+.homepage {
+  display: flex;
+  align-items: center;
+  background-image: url('../table.jpg');
+  background-size: cover;
+  color: #2e282a;
+  height: 520px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.homepage h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+}
+
+.homepage h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  margin-top: 20px;
+  border-radius: 2px;
+  border: 0px;
+  color: #31303A;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #FCDBDB;
+}
+
+.btn-secondary {
+  background-color: #678FFE;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.wrapper{
+  height: 100%;
+  min-height: 100%;
+}
+

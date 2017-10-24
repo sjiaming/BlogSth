@@ -1,0 +1,38 @@
+/* Footer */
+
+footer {
+  z-index:1;
+  padding-left:0;
+  padding-right:0;
+  background:#E08D7B;
+  padding:1.25rem 1.563rem;
+  font-family:'sans-serif';
+  font-weight:300;
+  font-style:normal;
+  border-top: 1px solid #FCDBDB;
+  position:relative;
+  bottom:0;
+}
+
+
+
+footer .container {
+  padding-top: 10px;
+  max-width: 900px;
+}
+
+footer .caption{
+  text-decoration:none;
+  color:#ffffff;
+  font-size:1rem;
+  line-height:1.563rem
+  }
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
