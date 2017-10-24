@@ -17,10 +17,10 @@ layout: blog_page
 	  				<span id="block-date"> {{ post.date | date_to_string}} </span>
 	  			</p>
 	  			
-	  			<img src="{{site.baseurl}}{{ post.source }}" class = "image">
+	  			<img src="{{site.baseurl}}/{{ post.imgsrc }}" class = "image">
 	  			
 	  			<div class="middle">
-	  				<a href="#">
+	  				<a href="{{site.baseurl}}{{post.url}}">
 			 			<h1><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></h1>
 	  				</a>
 	  			</div>
