@@ -12,7 +12,10 @@ layout: blog_page
         	
 	    	<div class="thumbnail">
 	    		
-	  			<p id="top"> {{post.category}} </p>
+	  			<p id="top"> 
+	  				{{post.category}} 
+	  				<span id="block-date"> {{ post.date | date_to_string}} </span>
+	  			</p>
 	  			
 	  			<img src="{{site.baseurl}}{{ post.source }}" class = "image">
 	  			
@@ -29,7 +32,6 @@ layout: blog_page
 			        		<a href="#"><span class="label label-default"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> {{ tag }}</span></a>
 			        	{% endfor %}
 			        </p>
-			        <p><span class="block-date"> {{ post.date | date_to_string}} </span></p>
 			    </div>
 				
 		</div>
