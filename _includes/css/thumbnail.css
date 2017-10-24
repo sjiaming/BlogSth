@@ -2,10 +2,6 @@
   padding-top: 2px;
 }
 
-a {
-  color: unset;
-}
-
 .thumbnail {
 	margin-top: 25px;
   margin-bottom: 25px;
@@ -24,9 +20,7 @@ a {
 .thumbnail .caption {
   color: #ffffff;
   padding-top: 0;
-
 }
-
 
 .thumbnail img {
   opacity: 1;
@@ -46,6 +40,7 @@ a {
   -ms-transform: translate(-50%, -50%)
 }
 
+
 .thumbnail:hover img {
   opacity: 0.3;
 }
@@ -58,11 +53,11 @@ a {
   opacity: 1;
 }
 
-:hover a{
-  color: unset;
+.middle a {
+  color: #ffffff;
 }
 .middle:hover .glyphicon-eye-open {
-  color: #E08D7B;
+  color: #58A9C4;
 }
 
 .thumbnail:hover{
@@ -75,6 +70,35 @@ a {
   font-family: impact;
 }
 
-.thumbnail h3 {
+.thumbnail h2 {
   font-family: impact;
+  color: #E08D7B;
+}
+
+.caption #tag {
+  padding-top: 10px;
+}
+
+.caption #tag span {
+  margin-right: 5px;
+}
+
+.caption .label-default {
+  background-color: #31303A;
+  border: 1.5px solid #ffffff;
+  border-radius: 25px;
+}
+
+.caption a {
+  text-decoration: none;
+}
+.caption a:hover .label-default{
+  background-color: #58A9C4;
+
+}
+
+.caption .block-date {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
 }
