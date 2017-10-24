@@ -73,6 +73,7 @@
 .thumbnail #block-date {
   position: absolute;
   right: 10px;
+  font-family: sans-serif;
 }
 
 .thumbnail h2 {
