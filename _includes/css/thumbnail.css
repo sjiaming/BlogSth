@@ -1,4 +1,10 @@
+.blog-row{
+  padding-top: 2px;
+}
 
+a {
+  color: unset;
+}
 
 .thumbnail {
 	margin-top: 25px;
@@ -52,6 +58,12 @@
   opacity: 1;
 }
 
+:hover a{
+  color: unset;
+}
+.middle:hover .glyphicon-eye-open {
+  color: #E08D7B;
+}
 
 .thumbnail:hover{
 	z-index:2;
