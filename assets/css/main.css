@@ -6,3 +6,4 @@
 {% include css/sidebar.css %}
 {% include css/thumbnail.css %}
 {% include css/article.css %}
+{% include css/markdown.css %}

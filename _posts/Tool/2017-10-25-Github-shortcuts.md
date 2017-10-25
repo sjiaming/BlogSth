@@ -12,7 +12,9 @@ author: Song Jiaming
 
 ## How large ##
 
-This is just a normal text, and **This is a bold test**, __This is also bold__ and *Here's the italic text*, _here is also italic_. _You **can** combine them_
+This is just a normal text, and **This is a bold test**, __This is also bold__ 
+
+*Here's the italic text*, _here is also italic_. _You **can** combine them_
 
 You can even have links: [Google!](http://www.google.com)
 
@@ -31,16 +33,18 @@ Dash also works:
   - 2 spaces infront
 
 Can we have images?:
-![Image of github]({{site.baseurl}}/assets/tools/github.png)
+
+
+
 
 # This is a <h1> tags
 ## <h2> tags
 ##### <h5> tag
 
-Blockquotes:
+Blockquotes:<br>
 As I said,
 > We all will die
-> - Just YOLO
+>> - Just YOLO
 
 
 Tables:
@@ -55,6 +59,7 @@ Colons can be used to align columns.
 
 Inline code:
 This is a inline code `var example = true`
+How about ''This?''
 This is a whole block code:
 ```
 if (isAwesome){
@@ -63,6 +68,7 @@ if (isAwesome){
 ```
 
 This is a whole block code with language specified:
+
 ```python
 if i in range(10):
   print("hello world")
@@ -78,5 +84,3 @@ Task list:
 
 Strikethrough
 Any word wrapped with two tildes (like ~~this~~) will appear crossed out
-
-Github also supports emoji! :smile
