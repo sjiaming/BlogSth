@@ -42,6 +42,17 @@ As I said,
 > We all will die
 > - Just YOLO
 
+
+Tables:
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
 Inline code:
 This is a inline code `var example = true`
 This is a whole block code:
@@ -64,11 +75,6 @@ Task list:
 - [x] this is a complete item
 - [ ] this is an incomplete item
 
-Tables:
-|First Header | Second Header|
-| :---         |     :---:      |          ---: |
-|Content from cell 1 | Content from cell 2|
-|Content in the first column | Content in the second column|
 
 Strikethrough
 Any word wrapped with two tildes (like ~~this~~) will appear crossed out
