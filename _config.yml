@@ -1,3 +1,5 @@
 baseurl: "/BlogSth"
 exclude: ['README.md']
 
+excerpt_separator: "<!--excerpt-->"
+
