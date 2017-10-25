@@ -1,12 +1,21 @@
-.article {
-	background-color: #ffffff;
-	height:100%;
-	width: 100vw;
-  	position: relative;
- 	left: 50%;
- 	right: 50%;
- 	margin-left: -50vw;
-  	margin-right: -50vw;
-  	padding-top: 20px;
-  	padding-left: 100px;
+.article{
+	background-color: #FCFCFC;
+	border-radius:30px;
+	height: 100%
+	margin-bottom:0px;
+	border: 1px solid #7C7C7C;
+	text-align:center;
+}
+
+.article-body {
+	display:inline-block;
+	position: center;
+	margin:50px;
+}
+
+.article-image {
+	max-width: 500px;
+	display:block;
+	object-fit: scale-down;
+	height:auto;
 }
