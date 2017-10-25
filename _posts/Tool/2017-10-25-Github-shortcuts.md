@@ -31,7 +31,7 @@ Dash also works:
   - 2 spaces infront
 
 Can we have images?:
-![Image of github](assets/tools/github.png)
+![Image of github]({{site.baseurl}}/assets/tools/github.png)
 
 # This is a <h1> tags
 ## <h2> tags
@@ -40,6 +40,37 @@ Can we have images?:
 Blockquotes:
 As I said,
 > We all will die
-> Just YOLO
+> - Just YOLO
 
-Inline code
+Inline code:
+This is a inline code `var example = true`
+This is a whole block code:
+```
+if (isAwesome){
+  return true
+}
+```
+
+This is a whole block code with language specified:
+```python
+if i in range(10):
+  print("hello world")
+```
+
+Task list:
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+Tables:
+|First Header | Second Header|
+| :---         |     :---:      |          ---: |
+|Content from cell 1 | Content from cell 2|
+|Content in the first column | Content in the second column|
+
+Strikethrough
+Any word wrapped with two tildes (like ~~this~~) will appear crossed out
+
+Github also supports emoji! :smile
