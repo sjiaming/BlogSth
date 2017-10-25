@@ -12,8 +12,3 @@ tags:
 author: Song Jiaming
 published: true
 ---
-## Hello Github ##
-
-### Some shortcuts and commands to link local repositories to github server ###
-
-$$\sqrt{\frac{1}{x}}$$
