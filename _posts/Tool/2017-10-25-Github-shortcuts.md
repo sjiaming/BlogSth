@@ -16,4 +16,4 @@ published: true
 
 ### Some shortcuts and commands to link local repositories to github server ###
 
-$\sqrt{\frac{1}{x}}$
+$$\sqrt{\frac{1}{x}}$$
