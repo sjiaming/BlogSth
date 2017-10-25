@@ -1,16 +1,27 @@
 .article{
 	background-color: #FCFCFC;
-	border-radius:30px;
 	height: 100%
 	margin-bottom:0px;
-	border: 1px solid #7C7C7C;
 	text-align:center;
+	width:100%;
+	display: inline-block;
+
 }
 
+.article-banner img {
+	height:400px;
+	overflow: hidden;
+	margin-bottom: 0;
+}
 .article-body {
-	display:inline-block;
-	position: center;
+	z-index: 1;
 	margin:50px;
+	position:relative;
+	margin-top: -80px;
+	border-radius:30px;
+	border: 1px solid #7c7c7c;
+	background-color: #FCFCFC;
+	font-family: 'Lato';
 }
 
 .article-image {
@@ -18,4 +29,25 @@
 	display:block;
 	object-fit: scale-down;
 	height:auto;
+}
+
+.article-title h1{
+	color: #31303A;
+	font-size:250%;
+}
+
+span {
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+.separator {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.article-content {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: left;
 }
