@@ -60,6 +60,7 @@ Colons can be used to align columns.
 Inline code:
 This is a inline code `var example = true`
 How about ''This?''
+
 This is a whole block code:
 ```
 if (isAwesome){
@@ -70,9 +71,15 @@ if (isAwesome){
 This is a whole block code with language specified:
 
 ```python
-if i in range(10):
+for i in range(10):
   print("hello world")
 ```
+
+$$ A_{1} = B_{2}^{n} $$
+
+or can I do in line math? \\( sin(x^2) \\)
+
+Is this a ==Highlighting==? 
 
 Task list:
 
@@ -84,3 +91,5 @@ Task list:
 
 Strikethrough
 Any word wrapped with two tildes (like ~~this~~) will appear crossed out
+
+:tada
