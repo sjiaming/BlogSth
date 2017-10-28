@@ -21,6 +21,7 @@
 .thumbnail .caption {
   color: #ffffff;
   padding-top: 0;
+  margin-top: 0;
 }
 
 .thumbnail img {
@@ -29,6 +30,7 @@
   backface-visibility: hidden;
   height:200px;
   width:100%;
+  overflow-y: hidden;
 }
 
 .middle {
@@ -77,7 +79,7 @@
   font-family: sans-serif;
 }
 
-.thumbnail h2 {
+.thumbnail h3 {
   font-family: impact;
   color: #E08D7B;
 }
