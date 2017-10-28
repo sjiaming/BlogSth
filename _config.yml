@@ -1,3 +1,11 @@
 baseurl: "/BlogSth"
 exclude: ['README.md']
 excerpt_separator: "<!--excerpt-->"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+highlighter: rouge
