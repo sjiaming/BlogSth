@@ -5,7 +5,14 @@ excerpt_separator: "<!--excerpt-->"
 markdown: kramdown
 kramdown:
   input: GFM
-  math_engine: mathjax
+  hard_wrap: false
   syntax_highlighter: rouge
 
 highlighter: rouge
+permalink: /posts/:title.html
+repository: sjiaming/BlogSth
+
+gems: ["jemoji"]
+
+emoji:
+  src: "/img"
