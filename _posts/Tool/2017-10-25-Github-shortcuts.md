@@ -4,10 +4,13 @@ title: Github Shortcuts
 meta: Some shortcuts for github repositories.
 imgsrc: assets/tools/github.png
 banner: assets/tools/github_banner.jpg
-date: 2017-10-25
+date: {}
 category: Tool
-tags: [Github,shortcut]
+tags:
+  - Github
+  - shortcut
 author: Song Jiaming
+published: true
 ---
 
 ## How large ##
@@ -83,10 +86,10 @@ Is this a ==Highlighting==?
 
 Task list:
 
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+- [ x ] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [ x ] list syntax required (any unordered or ordered list supported)
+- [ x ] this is a complete item
+- [  ] this is an incomplete item
 
 
 Strikethrough
