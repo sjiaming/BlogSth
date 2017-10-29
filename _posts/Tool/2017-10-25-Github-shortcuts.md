@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Github Shortdescriptioncuts
+title: Github Shortcuts
 description: Some shortcuts for github repositories.
 imgsrc: assets/tools/github.png
 banner: assets/tools/github_banner.png
