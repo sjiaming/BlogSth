@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Constructing...
+<div class ="container-fluid">
+        {{ content }}
+</div>
