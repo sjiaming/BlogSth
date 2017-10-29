@@ -11,5 +11,5 @@ Some demo of this blog:
 - Blog Page
 ![Blogs](/assets/blog.png)
 
-The blog is still under construction :smile:<brs>
-Any enquiries, please contact me at sjiaming1994@gmail.com
+The blog is still under construction :smile:<br>
+For any enquiries, please contact me at sjiaming1994@gmail.com
