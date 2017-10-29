@@ -4,9 +4,12 @@ This project is my personal blog built using jekyll. The purpose of thie blog is
 
 The project is published at: https://sjiaming.github.io/BlogSomething/
 
-Some demo about this blog:
+Some demo of this blog:
+- Home Page
 ![Homepage](/assets/Homepage.png)
+
+- Blog Page
 ![Blogs](/assets/blog.png)
 
-The blog is currently still in progress :smile:
+The blog is still under construction :smile:<brs>
 Any enquiries, please contact me at sjiaming1994@gmail.com
