@@ -12,4 +12,15 @@ Some demo of this blog:
 ![Blogs](/assets/blog.png)
 
 The blog is still under construction :smile:<br>
-For any enquiries, please contact me at sjiaming1994@gmail.com
+For any enquiries, please contact me @ sjiaming1994@gmail.com
+
+Implementation Note:
+- [x] Main page
+- [x] Main blog page for all posts
+- [x] Markdown
+- [ ] About Me page
+- [ ] Main Blog page for different categories
+- [ ] Sidebar links to category blog page
+- [ ] Main Blog page for different tags
+- [ ] Sidebar links to tag blog page
+- [ ] Search function
