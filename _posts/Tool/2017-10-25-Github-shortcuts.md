@@ -10,7 +10,6 @@ tags:
   - Github
   - shortcut
 author: Song Jiaming
-published: true
 ---
 
 ## How large ##
