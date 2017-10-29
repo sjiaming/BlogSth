@@ -5,10 +5,13 @@
 
       <ul class="sidebar-nav">
       	<li class="sidebar-brand">Category</li>
-        <li><a href="#">General</a></li>
-        <li><a href="#">Data</a></li>
-        <li><a href="#">Github</a></li>
-        <li><a href="#">Excels</a></li>
+        {% for category in site.categories %}
+        <li><a href="#">{{ category | first }}</a></li>
+        {% endfor %}
+        <li class="sidebar-brand">Tag</li>
+        {% for tag in site.tags limit: 5 %}
+        <li><a href="#">{{ tag | first }}</a></li>
+        {% endfor %}
       </ul>
     </div>
   	
