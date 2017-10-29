@@ -1,3 +1,11 @@
+/* jemoji */
+
+.emoji{
+  max-height: 20px;
+  max-width: 20px;
+  vertical-align: text-top;
+}
+
 /* Font size*/
 .article-content{
   font-size:18px;
@@ -21,11 +29,12 @@ th {
     background-color: #58A9C4;
     color: white;
 }
-/*
+
 tr:hover {
-	background-color: #70d3f4;
+	background-color: #58A9C4;
+  color: white;
 }
-*/
+
 /* block codes styling*/
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }

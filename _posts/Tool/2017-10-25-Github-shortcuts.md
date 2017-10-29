@@ -82,17 +82,15 @@ $$ A_{1} = B_{2}^{n} $$
 
 or can I do in line math? \\( sin(x^2) \\)
 
-Is this a ==Highlighting==? 
-
 Task list:
 
-- [ x ] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [ x ] list syntax required (any unordered or ordered list supported)
-- [ x ] this is a complete item
-- [  ] this is an incomplete item
-
+1. [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+2. [x] list syntax required (any unordered or ordered list supported)
+3. [x] this is a complete item
+4. [ ] this is an incomplete item
+	- [ ] this is an incomplete item
+	- [ ] this is an incomplete item
 
 Strikethrough
 Any word wrapped with two tildes (like ~~this~~) will appear crossed out
-
-:tada
+I give this plugin two :tada: !

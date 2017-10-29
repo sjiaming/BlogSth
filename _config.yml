@@ -12,7 +12,5 @@ highlighter: rouge
 permalink: /posts/:title.html
 repository: sjiaming/BlogSth
 
-gems: ["jemoji"]
-
-emoji:
-  src: "/img"
+plugins:
+  - jemoji
