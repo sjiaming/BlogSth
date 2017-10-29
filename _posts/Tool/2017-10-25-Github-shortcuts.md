@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Github Shortcuts
+title: Github Shortdescriptioncuts
 description: Some shortcuts for github repositories.
 imgsrc: assets/tools/github.png
 banner: assets/tools/github_banner.png
@@ -47,7 +47,7 @@ Can we have images?:
 Blockquotes:<br>
 As I said,
 > We all will die
->> - Just YOLO
+> - Just YOLO
 
 
 Tables:
