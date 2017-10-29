@@ -45,8 +45,19 @@ layout: blog_page
             <div class = "#content">
                  <hr>
                  {{ content | replace: '<li>[ ]', '<li class="box task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled>' | replace: '<li>[x]', '<li class="box_done task-list-item"><input type="checkbox" class="task-list-item-checkbox" value="on" disabled checked>' }}
+           		 <button type="button" class="btn btn-info btn-md" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
             </div>
         </div>
 
     </div>
 </div>
+
+<script>
+
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
