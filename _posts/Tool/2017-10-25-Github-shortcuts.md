@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Github Shortcuts
-meta: Some shortcuts for github repositories.
+description: Some shortcuts for github repositories.
 imgsrc: assets/tools/github.png
 banner: assets/tools/github_banner.png
 date: 2017-10-25

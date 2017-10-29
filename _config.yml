@@ -10,7 +10,7 @@ kramdown:
 
 highlighter: rouge
 permalink: /posts/:title.html
-repository: sjiaming/BlogSth
+repository: sjiaming/BlogSomething
 
 plugins:
   - jemoji
