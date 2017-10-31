@@ -6,7 +6,7 @@ imgsrc: assets/tools/octave.jpg
 banner: assets/tools/octave_banner.jpg
 date: 2017-10-31
 category: Tool
-tags: [Octave, Cheetsheet]
+tags: [Octave, Cheatsheet]
 author: Song Jiaming
 ---
 Octave is a mathematical programming language. It is a good alternative to Matlab.<br>
