@@ -64,14 +64,11 @@
   border-radius: 5px;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 15px;
+  padding:5px 10px 3px 10px;
 }
 
 .about-main .caption{
   font-family: impact;
   color: #58A9C4;
   font-size:2em;
-  margin-left: 5px;
 }

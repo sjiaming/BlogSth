@@ -47,6 +47,7 @@ span {
 	display: inline-block;
 }
 
+/* Top button */
 #myBtn {
     display: block; /* Hidden by default */
     position: absolute; /* Fixed/sticky position */
