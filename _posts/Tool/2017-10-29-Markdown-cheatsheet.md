@@ -137,3 +137,8 @@ Three or more Hyphens `---` , Asterisks `***`, Underscores `___`
 
 ### __12. Emoji__
 Emoji shows up when `:tada:` -> :tada: , `:+1:` -> :+1: , `:heart:` -> :heart: ,etc
+
+
+#### References
+1. [Markdown Cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+2. Sublime Markdown Cheetsheet
