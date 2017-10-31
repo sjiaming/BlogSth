@@ -22,16 +22,16 @@ table, th, td {
 }
 
 tr:nth-child(even) {
-	background-color: #75dcff;
+	background-color: #C8E0FC;
 }
 
 th {
-    background-color: #58A9C4;
+    background-color: #3C94FC;
     color: white;
 }
 
 tr:hover {
-	background-color: #58A9C4;
+	background-color: #6FB1FF;
   color: white;
 }
 

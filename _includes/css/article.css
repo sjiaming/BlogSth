@@ -1,7 +1,7 @@
 .article{
 	background-color: #FCFCFC;
-	height: 100%
-	margin-bottom:0px;
+	height: 100%;
+	margin-bottom: 0px;
 	text-align:center;
 	width:100%;
 	display: inline-block;
@@ -45,17 +45,24 @@ span {
 	padding-right: 20px;
 	text-align: left;
 	display: inline-block;
+	color: black;
 }
 
 /* Top button */
-#myBtn {
-    display: block; /* Hidden by default */
-    position: absolute; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 50px; /* Place the button 30px from the right */
+.article-content #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 220px; /* Place the button at the bottom of the page */
+    right: 90px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
     cursor: pointer; /* Add a mouse pointer on hover */
     font-style: bold;
+    color: white;
+    background-color: #A3E4D7;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: center;
+    width: 25px;
+    height:25px;
+    padding-right:1px;
 }

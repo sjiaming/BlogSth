@@ -8,7 +8,7 @@ date: 2017-10-25
 category: Tool
 tags:
   - Github
-  - shortcut
+  - Cheatsheet
 author: Song Jiaming
 ---
 This post shows some git bash commands for manuipulating github repositories locally.

@@ -6,7 +6,7 @@ imgsrc: assets/tools/markdown.jpg
 banner: assets/tools/markdown_banner.png
 date: 2017-10-29
 category: Tool
-tags: [Markdown,shortcut]
+tags: [Markdown,Cheatsheet]
 author: Song Jiaming
 extensions: ['extra', 'toc']
 ---
@@ -75,15 +75,15 @@ for i in range(10):
 
 ### __7. Tables__
 ```
-| Left      | Aligned   | Table |
-| --------- |---------- | ----- |
-| Apple     | Price     | $1600 |
-| Pear      | Cost      |   $12 |
-| Banana    | Profit    |    $1 |
+| Right-Aligned | Center   | Left-Aligned |
+| ------------: | :------: | :--------    |
+| Apple         | Price    | $1600        |
+| Pear          | Cost     |   $12        |
+| Banana        | Profit   |    $1        |
 ```
 
-| Left      | Aligned   | Table |
-| :-------- |:--------- | :---- |
+| Right-Aligned      |  Center   | Left-Aligned |
+| --------: | :-------: | :---- |
 | Apple     | Price     | $1600 |
 | Pear      | Cost      |   $12 |
 | Banana    | Profit    |    $1 |
