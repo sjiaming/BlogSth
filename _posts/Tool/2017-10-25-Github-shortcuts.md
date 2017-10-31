@@ -64,6 +64,7 @@ To solve this problem:
 - `git push origin <name>` : the changes are pushed to the branch 'name'   
 
 <br>
+
 ----
 #### References
 1. [Introduction to Github](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
