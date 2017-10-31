@@ -18,7 +18,7 @@ Implementation Note:
 - [x] Main page
 - [x] Main blog page for all posts
 - [x] Markdown
-- [ ] About Me page
+- [x] About Me page
 - [ ] Main Blog page for different categories
 - [ ] Sidebar links to category blog page
 - [ ] Main Blog page for different tags
