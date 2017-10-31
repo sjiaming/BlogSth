@@ -220,6 +220,7 @@ This function returns y.
 ```Matlab
 function y = nameOfFunction(x)
 y=x^2;
+end
 ```
 2. Then go to the directory:<br>
     Enter: `nameOfFunction(2)` => ans = 4
