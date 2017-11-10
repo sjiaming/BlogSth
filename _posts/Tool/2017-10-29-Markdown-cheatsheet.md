@@ -50,11 +50,11 @@ This is a summary of useful syntax (supported by this blog) to write Markdown :s
 - or just normal link: http://www.google.com
 
 ### __5. Images__
-`![Markdown Logo](..\assets\tools\markdown.jpg)`<br>
+`![Markdown Logo](..\assets\pics\tools\markdown.jpg)`<br>
 
-or `![Markdown Logo](..\assets\tools\markdown.jpg){:height=100px}` to specify styles
+or `![Markdown Logo](..\assets\pics\tools\markdown.jpg){:height=100px}` to specify styles
 
-![Markdown Logo](..\assets\tools\markdown.jpg)
+![Markdown Logo](..\assets\pics\tools\markdown.jpg)
 
 ### __6. Code and Syntax Highlighting____
 
@@ -116,6 +116,11 @@ $$F(\omega) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} f(t) \, e^{ - i \ome
 \\[\int_0^1 f(t) \mathrm{d}t\\]
 
 \\[\sum_j \gamma_j^2/d_j\\]
+
+Some special symbols that can just be copied used as text:
+- arrows: →, ⇒, ⇔, ↔
+- equations: ≤, ∈, ≡, ⊕, •
+- logic: ∀, ∃
 
 ### __10. Horizontal Rule__
 Three or more Hyphens `---` , Asterisks `***`, Underscores `___`

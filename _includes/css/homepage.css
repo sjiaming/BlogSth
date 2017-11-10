@@ -99,3 +99,7 @@ section{
     height:100%;
     min-height:100%;
 }
+
+.MathJax {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
