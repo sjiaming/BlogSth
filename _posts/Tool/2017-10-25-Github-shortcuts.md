@@ -2,8 +2,8 @@
 layout: article
 title: Git Bash Commands
 description: Some basic commands of git bash
-imgsrc: assets/tools/github.png
-banner: assets/tools/github_banner.png
+imgsrc: assets/pics/tools/github.png
+banner: assets/pics/tools/github_banner.png
 date: 2017-10-25
 category: Tool
 tags:
