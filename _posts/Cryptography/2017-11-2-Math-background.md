@@ -25,8 +25,7 @@ This blog is my study note for CS4236 Cryptography, Chapter 8.
 - (Congruence) Let __a__,__b__ and __n__ be integers (\\(n \not = 0\\)): if __(a mod n) = (b mod n)__, then __a ≡ b  (mod n)__
 
 ---
-
-
+math envir? $\frac{x+y}{x^{2}}$
 
 #### Properties
 Suppose __a ≡ x  (mod n)__ and __b ≡ y  (mod n)__, then:
