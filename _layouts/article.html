@@ -12,6 +12,8 @@ layout: blog_page
 
         {% endif %}
     </div>
+    
+    <div id="HTMLtoPDF">
 
     <div class="article-body">
 
@@ -47,9 +49,13 @@ layout: blog_page
                  {{ content | replace: '<li>[ ]', '<li class="box task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled>' | replace: '<li>[x]', '<li class="box_done task-list-item"><input type="checkbox" class="task-list-item-checkbox" value="on" disabled checked>' }}
 
            		 <div type="button" onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-arrow-up"></span></div>
+
+                 <a href="#" onclick="HTMLtoPDF()">Download PDF</a>
             </div>
         </div>
 
+    </div>
+    
     </div>
 </div>
 
