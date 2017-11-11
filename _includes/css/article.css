@@ -66,3 +66,20 @@ span {
     height:25px;
     padding-right:1px;
 }
+
+.article-content #myBtn2 {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 190px; /* Place the button at the bottom of the page */
+    right: 90px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    font-style: bold;
+    color: white;
+    background-color: #A3E4D7;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: center;
+    width: 25px;
+    height:25px;
+    padding-left:1px;
+}

@@ -35,7 +35,9 @@
     padding-left:180px;
 }
 
-
+#wrapper.menuDisplayed .sidebar-nav-main{
+     opacity: 1;
+}
 
 /*Sidebar styling*/
 .sidebar-nav{
@@ -43,12 +45,16 @@
     list-style: none;
     margin:0;
     position: relative;
+    
 }
 
+.sidebar-nav-main{
+    opacity: 0;
+}
 .sidebar-nav li{
     text-indent:20px;
     line-height: 40px;
-
+    
 }
 
 .sidebar-nav li a{

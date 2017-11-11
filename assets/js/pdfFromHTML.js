@@ -1,4 +1,16 @@
-function HTMLtoPDF(){
+function getPDF(){
+  html2canvas(document.body, {
+    onrendered: function (canvas) {
+      var img = canvas.toDataURL("image/png");  
+      var pdf = new jsPDF();
+      pdf.addImage(img, 'JPEG', 20, 20);
+      pdf.save('title.pdf');
+    }
+  });
+
+}
+
+/*
 var pdf = new jsPDF('p', 'pt', 'letter');
 source = $('#HTMLtoPDF')[0];
 specialElementHandlers = {
@@ -25,4 +37,4 @@ pdf.fromHTML(
         pdf.save('html2pdf.pdf');
       }
   )		
-}
+}*/

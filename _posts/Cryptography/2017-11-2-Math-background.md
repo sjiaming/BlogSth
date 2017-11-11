@@ -111,7 +111,9 @@ Infinite. Only “1” and “-1” have multiplicative inverse
     + Find the integer y s.t. \\(y^{2}\\) = y • y = x   
 - Given int x, g, to determine whether ∃ an integer y s.t. \\(g^{y}\\) = x
     - __y = \\(\log_{g}\\) x__
-- The above 2 algorithems are efficient in the sense that, suppose x, g, y are m-bit integers, the running time is polynomial w.r.t. m
+- The above 2 algorithems are efficient in the sense that:
+    - suppose __x, g, y__ are m-bit integers
+    - the running time is polynomial w.r.t. m
 
 
 
