@@ -100,7 +100,8 @@ for i in range(10):
 ### __9. Math Environment__
 Inline math: `\\(\frac{\pi}{2}\\)`,<br>
 - This displays as \\(\frac{\pi}{2}\\)
-
+or: `$\frac{x+y}{x^{2}}$`,<br>
+- This displays as $\frac{x+y}{x^{2}}$
 Alternatively, math can be written on its own line:
 
 ```
