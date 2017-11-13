@@ -113,7 +113,7 @@ Infinite. Only “1” and “-1” have multiplicative inverse
     - __y = \\(\log_{g}\\) x__
 - The above 2 algorithems are efficient in the sense that:
     - suppose __x, g, y__ are m-bit integers
-    - the running time is polynomial w.r.t. m
+    - the running time is polynomial w.r.t. __m__
 
 
 
@@ -126,15 +126,40 @@ For any __a,b ∈ \\(Z_{p}\\):
 - a • b = d where d = (a b) mod p
 
 Any x ∈ \\(Z_{p}\\), except 0, has a multiplicative inverse,
-- ∃ a y s.t. xy ≡ 1 (mod p)
+- ∃ a __y__ s.t. xy ≡ 1 (mod p)
 - These elements are included in a group \\(Z_{p}^{*}\\) = {1, 2, ..., p-1}
 
-- Given __x, p__, we can compute its multiplication inverse
-    - using the Extended Euclidean Algorithm
+- Given __x, p__, we can compute its multiplication inverse__
+    - using Extended Euclidean Algorithm to compute gcd(x,p)
+    - We will have a•p + k•x = 1 ⇒ 1 ≡ k • x ⇒ k or -k mod p is the inverse
+    - e.g. Find multiplicative inverse of 19 congruent 125:
+        + Find gcd(19,125), let x = 19, p = 125
+        + 125 = 6•19 + 11 ⇒ p = 6x + 11 ⇒  11 = p - 6x
+        + 19 = 1•11 + 8 ⇒ x = p-6x + 8 ⇒ 8 = -p+7x
+        + 11 = 1•8 + 3 ⇒ p-6x = -p + 7x +3⇒ 3 = 2p-13x
+        + 8 = 2•3 + 2 ⇒ -p+7x = 2(2p-13x) + 2 ⇒ 2 = -5p + 33x
+        + 3 = 1•2 + 1 ⇒ 2p-13x = -5p+33x +1 ⇒ 1 = 7p - 46x
+        + ⇒ -46•19 ≡ 1 mod 125 ⇒ (-46) = 79 mod 125
+        + The inverse is 79
 -  Given __x, d, p__, we want to compute \\(x^{d}\\)__mod p__ efficiently.
+    - The sequence $c^{2},c^{4},c^{8}$ can be computed fast by successive squaring
+    - $c^{54} = c^{2+4+16+32}=c^{2}\cdot c^{4}\cdot c^{16} \cdot c^{32}$
+    - Fast Algorithm for exponentiation: Suppose d = $b_{0}b_{1}...b_{k-1}$ (binary)
+    ```
+    temp = 1;
+    for i in range(k):
+        temp = (temp*temp) mod p 
+        if (b[i] == 1):
+            temp = (temp*x) mod p
+    return temp
+    ```
+    
 
-### 5 Arithmetic in Modulo Composite (finite ring) \\(Z_{n}\\)
 
+
+### 5 Arithmetic in Modulo Composite (finite ring) \\(Z_{n}^{*}\\)
+- __x__ ∈ $Z_{n}$ has an multiplicative inverse iff __gcd(x,n)=1__
+- $Z_{n}^{*}$ = {x: x has inverse}
 ### 6 More on \\(Z_{p}\\)
 
 ### 7 More on \\(Z_{n}\\)

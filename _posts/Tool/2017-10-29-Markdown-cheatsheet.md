@@ -52,7 +52,7 @@ This is a summary of useful syntax (supported by this blog) to write Markdown :s
 ### __5. Images__
 `![Markdown Logo](..\assets\pics\tools\markdown.jpg)`<br>
 
-or `![Markdown Logo](..\assets\pics\tools\markdown.jpg){:height=100px}` to specify styles
+or `![Markdown Logo]({{site.baseurl}}\assets\pics\tools\markdown.jpg){:height=100px}` to specify styles
 
 ![Markdown Logo](..\assets\pics\tools\markdown.jpg)
 
