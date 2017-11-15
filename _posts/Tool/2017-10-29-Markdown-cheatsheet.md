@@ -50,11 +50,11 @@ This is a summary of useful syntax (supported by this blog) to write Markdown :s
 - or just normal link: http://www.google.com
 
 ### __5. Images__
-`![Markdown Logo](..\assets\pics\tools\markdown.jpg)`<br>
+`![Markdown Logo](picture_link.jpg)`<br>
 
-or `![Markdown Logo]({{site.baseurl}}\assets\pics\tools\markdown.jpg){:height=100px}` to specify styles
+or `![Markdown Logo](picture_link.jpg){:height=100px}` to specify styles
 
-![Markdown Logo](..\assets\pics\tools\markdown.jpg)
+![Markdown Logo]({{site.baseurl}}/assets/pics/tools/markdown.jpg)
 
 ### __6. Code and Syntax Highlighting____
 

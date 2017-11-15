@@ -1,12 +1,12 @@
 ---
 layout: article
 title: Web Crawling I
-description: Basic web crawling for static website using python3
+description: TBC
 imgsrc: assets/pics/tools/spider.jpg
 banner: assets/pics/tools/spider_banner.jpg
 date: 2017-11-02
-category: Cryptography
-tags: [Math,Cryptography]
+category: Tool
+tags: [Python]
 author: Song Jiaming
 ---
 
@@ -31,4 +31,6 @@ if __name__ == '__main__':
 ```
 
 The code above will return a result as below:
-![get()) result]({{site.baseurl}}\assets\pics\tools\get.png)
+![get() result]({{site.baseurl}}/assets/pics/tools/get.png)
+
+The left-hand side is the html shown in inspection while right-hand side is tthe html we obtained.
