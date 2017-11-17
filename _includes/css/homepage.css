@@ -7,8 +7,12 @@ body {
   min-width: 100%;
   padding-top: 50px;
   margin: 0;
+  font-size: 12pt;
 }
 
+.MathJax {
+font-size: 12pt;
+}
 
 /* header navbar */
 .navbar-brand{
