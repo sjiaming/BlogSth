@@ -14,8 +14,6 @@
 	background-color: #31303A;
   color: #ffffff;
   border-color: #31302A;
-  height:auto;
-
 }
 
 .thumbnail .caption {
@@ -29,6 +27,7 @@
   transition: .5s ease;
   backface-visibility: hidden;
   overflow-y: hidden;
+  min-height: 200px;
 }
 
 .middle {

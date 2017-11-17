@@ -6,8 +6,15 @@ layout: blog_page
 <!-- Page Content -->
  
 
-<div class="row blog-row">
+
+
     {% for post in site.posts %}
+ 		{% assign mod = forloop.index0 | modulo: 4 %}
+ 		
+ 		{% if mod==0 %}
+    	<div class="row blog-row">
+		{% endif %}
+    
         <div class="col-sm-3">
         	
 	    	<div class="thumbnail">
@@ -36,8 +43,11 @@ layout: blog_page
 			        	{% endfor %}
 			        </p>
 			    </div>
-				
+			</div>
 		</div>
-        </div>
+
+		{% if mod==3 %}
+    	</div>
+		{% endif %}
+        
     {% endfor %}
-</div>
