@@ -9,7 +9,6 @@ category: Cryptography
 tags: [Math,Cryptography]
 author: Song Jiaming
 ---
-
 This blog is my study note for CS4236 Cryptography, Chapter 8.
 
 ### 1. Prime Numbers

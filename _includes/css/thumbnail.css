@@ -14,7 +14,7 @@
 	background-color: #31303A;
   color: #ffffff;
   border-color: #31302A;
-  height:400px;
+  height:auto;
 
 }
 
@@ -28,8 +28,6 @@
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
-  height:200px;
-  width:100%;
   overflow-y: hidden;
 }
 
