@@ -70,7 +70,7 @@ In this blog, I will list down some basic but useful commands of it.
 |<b>Identity matrix</b>| eye(n)   | eye(4) |
 | <b> Magic matrix</b> | magic(n) | nxn matrix with the same row/column/diag sum|
 | <b>Lower Triangular</b>  | tril(A) | make A lower triangular |
-| <b>Upper Triangular</b>  | triu(A) | make A uppder triangular|
+| <b>Upper Triangular</b>  | triu(A) | make A upper triangular|
 
 
 

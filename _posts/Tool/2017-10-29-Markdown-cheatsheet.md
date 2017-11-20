@@ -52,8 +52,6 @@ This is a summary of useful syntax (supported by this blog) to write Markdown :s
 ### __5. Images__
 `![Markdown Logo](picture_link.jpg)`<br>
 
-or `![Markdown Logo](picture_link.jpg){:height=100px}` to specify styles
-
 ![Markdown Logo]({{site.baseurl}}/assets/pics/tools/markdown.jpg)
 
 ### __6. Code and Syntax Highlighting____
@@ -120,10 +118,15 @@ $$F(\omega) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} f(t) \, e^{ - i \ome
 
 \\[\sum_j \gamma_j^2/d_j\\]
 
-Some special symbols that can just be copied used as text:
-- arrows: →, ⇒, ⇔, ↔
+#### Coloring in math environment
+Code `$\bbox[lightgreen]{\frac{1}{2}}$`<br>
+Gives $\bbox[lightgreen]{\frac{1}{2}}$
+
+#### Some special symbols that can just be copied used as text:
+- arrows: →, ⇒, ⇔, ↔, ↓, ↑
 - equations: ≤, ∈, ≡, ⊕, •
-- logic: ∀, ∃
+- logic: ∀, ∃, ∇
+- letters: β, η, λ, Ω, 𝛿
 
 ### __10. Horizontal Rule__
 Three or more Hyphens `---` , Asterisks `***`, Underscores `___`

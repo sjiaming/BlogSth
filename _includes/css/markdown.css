@@ -9,6 +9,7 @@
 /* Font size*/
 .article-content{
   font-size:18px;
+  width: 100%;
 }
 
 /*Table styling*/
@@ -245,4 +246,5 @@ tr:hover {
 .highlight {
   color: #f8f8f2;
   background-color: #49483e;
+  font-size: 16px;
 }
