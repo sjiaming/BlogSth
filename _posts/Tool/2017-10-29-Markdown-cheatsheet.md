@@ -128,6 +128,9 @@ Gives $\bbox[lightgreen]{\frac{1}{2}}$
 - logic: ∀, ∃, ∇
 - letters: β, η, λ, Ω, 𝛿
 
+For more 'copy and paste' math symbols , vistit http://math.typeit.org/
+
+
 ### __10. Horizontal Rule__
 Three or more Hyphens `---` , Asterisks `***`, Underscores `___`
 
