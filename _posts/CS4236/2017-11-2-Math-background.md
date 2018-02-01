@@ -2,7 +2,7 @@
 layout: article
 title: Math Background for Public Key Cryptography
 description: Basic number theory knowledge
-imgsrc: assets/pics/crypto/8.jpg
+imgsrc: assets/pics/crypto/1.jpg
 banner: assets/pics/crypto/math_banner.jpg
 date: 2017-11-02
 category: CS4236
